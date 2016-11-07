@@ -1,0 +1,23 @@
+{
+  "name": "alma",
+  "version": "1.0.0",
+  "description": "### Étape 1 : * Créez un serveur express  * Récupérez le fichier json `crm.json` * Inserez les informations dans le `index.html`",
+  "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimplonTlse02/Mini-CRM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimplonTlse02/Mini-CRM/issues"
+  },
+  "homepage": "https://github.com/SimplonTlse02/Mini-CRM#readme"
+}
