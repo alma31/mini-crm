@@ -2,26 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Mini crm</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+	<title>Formulaire</title>
 </head>
 <body>
-     <div id="crm"></div>  
-     <form action="/data" method="post">
-     	<label>Nom</label>
-     	<input id="nom">
-     	<label>Prenom</label>
-     	<input id="prenom">
-     	<label>Telephone</label>
-     	<input id="telephone">
-     	<label>Mail</label>
-     	<input id="mail">
-     	<label>Description</label>
-     	<input id="description">
-     <button id="envoyer">Envoyer</button>
-     </form>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="app.js"></script>
+<div class="ui two column centered grid">
+<div class="column">
+<form action="/data" method="post">
+     	<label for="nom">Nom</label>
+     	<input class="ui input" id="nom">
+     	<label for="prenom">Prenom</label>
+     	<input id="prenom">
+     	<label for="telephone">Telephone</label>
+     	<input id="telephone">
+     	<label for="mail">Mail</label>
+     	<input id="mail">
+     	<label for="description">Description</label>
+     	<input id="description">
+     <button class="ui primary button" id="envoyer">Envoyer</button>
+ </form>
+ </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script type="text/javascript" src="app.js"></script>	
 </body>
 </html>

@@ -4,7 +4,9 @@
   "description": "### Étape 1 : * Créez un serveur express  * Récupérez le fichier json `crm.json` * Inserez les informations dans le `index.html`",
   "main": "app.js",
   "dependencies": {
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "semantic": "0.0.1",
+    "ui": "^0.2.4"
   },
   "devDependencies": {},
   "scripts": {

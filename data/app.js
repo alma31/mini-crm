@@ -2,7 +2,6 @@
     "use strict";
 
     var app = {
-        url : "http://localhost:1500/",
         
         init:function(){
             this.recuperation();
@@ -48,7 +47,6 @@
     },
         success: function(){
             alert("ouép sa a marché");
-            window.location.reload();
         }
        
 
